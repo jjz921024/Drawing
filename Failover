@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T08:17:13.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="BFNEN9gw6oyO6QmCKxPe" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T08:22:13.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="tostwM6NiXb07NaIerz6" version="14.7.7" type="github">
   <diagram id="vCokj1778KDr5Ses3Ti8" name="Page-1">
     <mxGraphModel dx="1338" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,12 +14,6 @@
         </mxCell>
         <mxCell id="nRLjxPD2J0OSJHSsYI21-7" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.d;comic=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="40" width="64" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nRLjxPD2J0OSJHSsYI21-8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Migration_Projects.svg;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="41.43" y="1050" width="70" height="44.8" as="geometry" />
-        </mxCell>
-        <mxCell id="nRLjxPD2J0OSJHSsYI21-9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Virtual_Network.svg;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="39.99999999999999" y="970" width="71.43" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nRLjxPD2J0OSJHSsYI21-29" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.d;comic=1;" vertex="1" parent="1">
           <mxGeometry x="481.5" y="40" width="64" height="80" as="geometry" />
@@ -159,13 +153,16 @@
           <mxGeometry x="360" y="190" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="nRLjxPD2J0OSJHSsYI21-91" value="&lt;ol style=&quot;line-height: 160%; font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;节点故障下线&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Proxy感知到节点故障，将路由到该节点的key自动转移到其他节点上，并在key打上前缀，表明该key原来所属分区和目的分区&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=none;comic=1;pointerEvents=1;fontFamily=Comic Sans MS;fontSize=16;spacingTop=0;jiggle=1;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="293.5" y="520" width="440" height="150" as="geometry" />
+          <mxGeometry x="293.5" y="510" width="440" height="150" as="geometry" />
         </mxCell>
         <mxCell id="nRLjxPD2J0OSJHSsYI21-98" value="__Partition-1__Partition-2:{Key-xxx}" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;comic=1;pointerEvents=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="105.62" y="185" width="183.88" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nRLjxPD2J0OSJHSsYI21-100" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=1;shape=mxgraph.arrows2.arrow;dy=0.64;dx=10.81;notch=0;labelBackgroundColor=none;comic=1;jiggle=1;pointerEvents=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=#ffffff;rotation=-180;" vertex="1" parent="1">
           <mxGeometry x="290" y="195" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="nRLjxPD2J0OSJHSsYI21-101" value="故障阶段示意图" style="text;strokeColor=#ae4132;fillColor=#fad9d5;html=1;fontSize=23;fontStyle=0;verticalAlign=middle;align=center;labelBackgroundColor=none;comic=1;jiggle=1;pointerEvents=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="174" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
