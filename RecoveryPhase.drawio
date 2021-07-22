@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T01:14:56.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="VQV1GLtFt7YTSRjXAYDH" version="14.9.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-22T03:56:33.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="ORB6NaS3aQV322rMHXXM" version="14.9.0" type="github" pages="2">
   <diagram id="vCokj1778KDr5Ses3Ti8" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,7 +226,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0f7GZxuMNbyWW5jOqq2Y" name="Page-2">
-    <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="02AfhS82IEURScdl1zKG-0" />
         <mxCell id="02AfhS82IEURScdl1zKG-1" parent="02AfhS82IEURScdl1zKG-0" />
@@ -376,7 +376,7 @@
         <mxCell id="02AfhS82IEURScdl1zKG-40" value="Key-xxx" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;comic=1;pointerEvents=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;strokeColor=#36393d;" vertex="1" parent="02AfhS82IEURScdl1zKG-1">
           <mxGeometry x="1112.1100000000001" y="181.75" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="02AfhS82IEURScdl1zKG-41" value="&lt;ol style=&quot;line-height: 160%&quot;&gt;&lt;li&gt;&lt;span&gt;节点恢复&lt;/span&gt;&lt;span&gt;，并为该节点打上flag，表示该节点目前处于恢复阶段，读写请求继续路由到redirect分区&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;客户端的访问会根据redirectPartition中是否存在migKey判断路由分区&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;在管理台上手动触发Scan任务，扫描出所有被故障转移的key并迁移回原本分区&lt;/li&gt;&lt;li&gt;清除RecoveryFlag，路由恢复正常&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=none;comic=1;pointerEvents=1;fontFamily=Comic Sans MS;fontSize=16;spacingTop=0;jiggle=1;spacing=0;" vertex="1" parent="02AfhS82IEURScdl1zKG-1">
+        <mxCell id="02AfhS82IEURScdl1zKG-41" value="&lt;ol style=&quot;line-height: 160%&quot;&gt;&lt;li&gt;&lt;span&gt;节点恢复&lt;/span&gt;&lt;span&gt;，并为该节点打上flag，表示该节点目前处于恢复阶段&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;客户端的访问会根据redirectPartition中是否存在migKey判断路由分区&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;在管理台上手动触发Scan任务，扫描出所有被故障转移的key并迁移回原本分区&lt;/li&gt;&lt;li&gt;清除RecoveryFlag，路由恢复正常&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=none;comic=1;pointerEvents=1;fontFamily=Comic Sans MS;fontSize=16;spacingTop=0;jiggle=1;spacing=0;" vertex="1" parent="02AfhS82IEURScdl1zKG-1">
           <mxGeometry x="729.5" y="560" width="440" height="270" as="geometry" />
         </mxCell>
         <mxCell id="02AfhS82IEURScdl1zKG-42" value="__Partition-1__Partition-2:{Key-xxx}" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;comic=1;pointerEvents=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;strokeColor=#36393d;" vertex="1" parent="02AfhS82IEURScdl1zKG-1">
