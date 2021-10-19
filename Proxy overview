@@ -1,1 +1,211 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T01:26:43.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="14.9.4" etag="SYlSYJFWjijJKxaMPYtA" type="github"><diagram id="ZfEXKoc0pSxiihnS-dYa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-19T02:47:14.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Bf-9sWJP-d5dV51RZUll" version="14.9.4" type="github">
+  <diagram id="ZfEXKoc0pSxiihnS-dYa" name="Page-1">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1P0b24WsyY76WGVwNZcF-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-1" target="1P0b24WsyY76WGVwNZcF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="840" y="90" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-2" target="1P0b24WsyY76WGVwNZcF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-2" value="RedisDecoder" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-72" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-5" target="1P0b24WsyY76WGVwNZcF-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-5" value="Command&lt;br&gt;Aggregator" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="630" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-73" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-12" target="1P0b24WsyY76WGVwNZcF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-12" value="AuthHandler" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="630" y="500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-74" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-13" target="1P0b24WsyY76WGVwNZcF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-13" value="TenantHandler" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="630" y="640" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-76" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-14" target="1P0b24WsyY76WGVwNZcF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-14" value="LimitRate&lt;br&gt;Handler" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="630" y="800" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-77" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-15" target="1P0b24WsyY76WGVwNZcF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-15" value="SpecialCommand&lt;br&gt;Handler" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="625" y="970" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-89" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-16" target="1P0b24WsyY76WGVwNZcF-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-16" value="DispatchHandler" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="625" y="1170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-88" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-17" target="1P0b24WsyY76WGVwNZcF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-17" value="ClusterGroup" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="800" y="1430" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-91" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-18" target="1P0b24WsyY76WGVwNZcF-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-18" value="SyncHandler" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1060" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-92" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-19" target="1P0b24WsyY76WGVwNZcF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-19" value="Response&lt;br&gt;Handler" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="740" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-93" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1P0b24WsyY76WGVwNZcF-20" target="1P0b24WsyY76WGVwNZcF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-20" value="RedisEncoder" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-21" value="Inbound" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="740" y="700" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-24" value="Outbound" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="910" y="560" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-25" value="RedisMessage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="740" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-38" value="byte[]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="715" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-43" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="320" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-29" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;comic=1;fontSize=16;rotation=-180;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-43">
+          <mxGeometry x="122.7777777777778" y="5" width="47.22222222222223" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-42" value="将多条RedisMessage聚合成一个Command" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-43">
+          <mxGeometry width="122.7777777777778" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-44" value="FullRedisCommand" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-50" value="1. cmdName: String&#xa;2. argv: List&#xa;3. sizeInBytes: Int&#xa;...&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;comic=1;fontSize=16;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-44">
+          <mxGeometry y="30" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-54" value="代表一条完整的redis命令，包含命令名称、key和value等信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-44">
+          <mxGeometry y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-55" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="470" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-56" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;comic=1;fontSize=16;rotation=-180;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-55">
+          <mxGeometry x="122.7777777777778" y="5" width="47.22222222222223" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-57" value="1. 负责处理客户端auth请求，并标记认证成功的连接 （通过在channel上添加Attribute实现）&lt;br&gt;2. 缓存认证信息&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-55">
+          <mxGeometry x="-80" width="202.78" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-58" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460" y="610" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-59" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;comic=1;fontSize=16;rotation=-180;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-58">
+          <mxGeometry x="122.7777777777778" y="5" width="47.22222222222223" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-60" value="1. 子系统间的白名单控制&lt;br&gt;2. 子系统的连接数限制和全局连接数限制&lt;br&gt;3. 剔除无效的连接" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-58">
+          <mxGeometry x="-80" width="202.78" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-61" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460" y="770" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-62" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;comic=1;fontSize=16;rotation=-180;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-61">
+          <mxGeometry x="122.7777777777778" y="5" width="47.22222222222223" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-63" value="1. 子系统限流控制和全局限流控制 （Proxy实例级别，guava的RateLimiter实现）&lt;br&gt;2. 控制单条Command大小 （默认10Mbyte）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-61">
+          <mxGeometry x="-80" width="202.78" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-64" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="940" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-65" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;comic=1;fontSize=16;rotation=-180;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-64">
+          <mxGeometry x="122.7777777777778" y="5" width="47.22222222222223" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-66" value="1. 子系统限流控制和全局限流控制 （Proxy实例级别，guava的RateLimiter实现）&lt;br&gt;2. 控制单条Command大小 （默认10Mbyte）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-64">
+          <mxGeometry x="-80" width="202.78" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-67" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="1140" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-68" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;comic=1;fontSize=16;rotation=-180;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-67">
+          <mxGeometry x="122.7777777777778" y="5" width="47.22222222222223" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-69" value="1. 通过key的hash路由到指定redis分区&lt;br&gt;2. 根据子系统id判断是否使用双读双写模式&lt;br&gt;3. 将请求放入channel对应的队列中，按序回包" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-67">
+          <mxGeometry x="-80" width="202.78" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-70" value="channel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="730" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-79" value="FullRedisCommand" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="755" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-81" value="CommandRequest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1270" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-83" value="CommandRequest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1320" width="170" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-84" value="1. request: &#xa;    FullRedisRequest&#xa;2. fromChannel: &#xa;    Channel&#xa;3. response: Future&#xa;...&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;comic=1;fontSize=16;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-83">
+          <mxGeometry y="30" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-86" value="封装请求、对应tcp连接和响应。在得到响应后，用fromChannel发送回包" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=20;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-83">
+          <mxGeometry y="150" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-90" value="CompleteableFuture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-94" value="byte[]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-95" value="RedisMessage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-104" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1150" y="1022.5" width="230" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-97" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;comic=1;fontSize=16;rotation=-360;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-104">
+          <mxGeometry y="22.5" width="47.22222222222223" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-103" value="因为同一条tcp连接上的请求可能被路由到不同redis分区上。&lt;br&gt;在次对响应进行重排，保证按序回复" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;comic=1;fontSize=20;" vertex="1" parent="1P0b24WsyY76WGVwNZcF-104">
+          <mxGeometry x="50" width="180" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-106" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;comic=1;fontSize=16;rotation=-360;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="712.5" width="47.22222222222223" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-107" value="负责将lettuce的响应转换成RedisMessage交由编码器进行处理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;comic=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="702.5" width="180" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-108" value="入站请求和出站请求都有netty的&lt;b&gt;worker&lt;/b&gt;线程处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1000" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0b24WsyY76WGVwNZcF-109" value="线程切换，交由&lt;br&gt;lettuce-nioEventLoop发送请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;comic=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1510" width="205" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
