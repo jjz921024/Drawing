@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T08:43:05.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.81 Safari/537.36" etag="eth0LboZKOylDg94olxG" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T10:41:10.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.81 Safari/537.36" etag="wDDiz0xG7acsDOzq0Ay9" version="16.2.7" type="github" pages="2">
   <diagram id="iaet0iRzDxaCnqjNlgBV" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="tHiNQrQFGS3VPZnn2pAV-1" target="tHiNQrQFGS3VPZnn2pAV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" target="tHiNQrQFGS3VPZnn2pAV-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-1" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Client&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-3" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Redis-1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Redis-2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Redis-3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-6" value="&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;对同一个key和具有唯一性的value分别向所有redis实例请求锁&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;锁的ttl为5min，并假设不同机器间的时钟漂移为1min&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tHiNQrQFGS3VPZnn2pAV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+            <mxPoint x="300" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-8" value="&lt;font style=&quot;font-size: 12px&quot;&gt;1. 开始时间 T1=12:00&lt;br&gt;尝试向第一个实例获取锁&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="210" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-13" value="&lt;font style=&quot;font-size: 12px&quot;&gt;2. 12:01尝试向&lt;br&gt;第二个实例获取锁&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-14" value="&lt;font style=&quot;font-size: 12px&quot;&gt;3. 12:02尝试向&lt;br&gt;第三个实例获取锁&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="510" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHiNQrQFGS3VPZnn2pAV-15" value="&lt;span style=&quot;font-size: 12px&quot;&gt;4. 结束时间T2=12:02&lt;br&gt;判断是否对N/2+1个实例加锁成功&lt;br&gt;并计算锁有效时间&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;是否大于锁失效时间&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;TTL-(T2-T1)-漂移时间 = 2min&lt;br&gt;满足则认为加锁成功&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="220" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1DdoDlWQqMow9ngfdy1a" name="Page-2">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="UZXuc_JGgxRQYAs9WcXJ-0" />
+        <mxCell id="UZXuc_JGgxRQYAs9WcXJ-1" parent="UZXuc_JGgxRQYAs9WcXJ-0" />
+        <mxCell id="ScDth87COkrb6t3F39j4-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="UZXuc_JGgxRQYAs9WcXJ-1" source="ScDth87COkrb6t3F39j4-2" target="ScDth87COkrb6t3F39j4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="UZXuc_JGgxRQYAs9WcXJ-1" target="ScDth87COkrb6t3F39j4-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-2" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Client&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZXuc_JGgxRQYAs9WcXJ-1">
+          <mxGeometry x="150" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-3" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Redis-1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZXuc_JGgxRQYAs9WcXJ-1">
+          <mxGeometry x="360" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Redis-2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZXuc_JGgxRQYAs9WcXJ-1">
+          <mxGeometry x="360" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Redis-3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="UZXuc_JGgxRQYAs9WcXJ-1">
+          <mxGeometry x="360" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-6" value="&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;对同一个key和具有唯一性的value分别向所有redis实例请求锁&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;锁的ttl为5min，并假设不同机器间的时钟漂移为1min&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="UZXuc_JGgxRQYAs9WcXJ-1">
+          <mxGeometry x="60" y="130" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="UZXuc_JGgxRQYAs9WcXJ-1" target="ScDth87COkrb6t3F39j4-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+            <mxPoint x="300" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-8" value="&lt;font style=&quot;font-size: 12px&quot;&gt;1. 开始时间 T1=12:00&lt;br&gt;尝试向第一个实例获取锁&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="UZXuc_JGgxRQYAs9WcXJ-1">
+          <mxGeometry x="345" y="210" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-9" value="&lt;font style=&quot;font-size: 12px&quot;&gt;2. 12:01尝试向&lt;br&gt;第二个实例获取锁&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="UZXuc_JGgxRQYAs9WcXJ-1">
+          <mxGeometry x="345" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ScDth87COkrb6t3F39j4-10" value="&lt;font style=&quot;font-size: 12px&quot;&gt;3. 12:02尝试向&lt;br&gt;第三个实例获取锁&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;rotation=0;" vertex="1" parent="UZXuc_JGgxRQYAs9WcXJ-1">
+          <mxGeometry x="347.5" y="510" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
